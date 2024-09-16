@@ -1,0 +1,941 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header #top{
+    width: 90px;
+    margin-top: -8em;
+    margin-bottom: 0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+header nav li{
+    padding: 5px 10px;
+    list-style: none;
+}
+header nav li a{
+    font-family:  Arail black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ff6600;
+    text-decoration: none;
+}
+header .nav{
+    display: flex;
+    justify-content: center;
+    border-bottom:2px solid #e45323;
+    line-height: 10px;
+    box-shadow:0 0 20px 1px #FF6635;
+    margin: 5px 0;
+    padding: 20px 0;
+    width: 100%;
+}
+header .nav a{
+    text-decoration: none;
+    border-left:2px solid #e9e4e4;
+    padding: 12px;
+    color: #FF6635;
+    background-color: #212121;
+    border-radius: 8px;
+    font-size: 20px;
+}
+header h1:first-of-type{
+    text-transform: uppercase;
+}
+header h1{
+    margin-top: 2rem;
+    font-size: 100px;
+    font-family: lato;
+    color: #fff;
+}
+header h2{
+    text-align: center;
+    font-size: 80px;
+    font-family: lato;
+    color: #fff;
+}
+header button{
+    margin-top: 18px;
+    padding: 22px;
+    padding-bottom: 2em;
+    border: none;
+}
+header button:nth-child(1){
+    background-color: #FF6635;
+
+}
+header button:nth-child(1) a{
+    color: black;
+}
+header button:nth-child(2){
+    margin-left: 5px;
+    padding: 15.8px;
+    background-color: transparent;
+    border: 2px solid #fff;
+
+}
+header button:nth-child(2) a{
+    color: #fff;
+}
+header button a{
+    font-weight: 600;
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* this is all for the header pls */
+
+main{
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+    margin-left: 80px;
+}
+main img{
+    margin-top: -2rem;
+    width: 500px;
+
+}
+main .write-up1{
+    margin-top: 100px;
+    margin-right: 18%;
+    color: black;
+}
+main .write-up1 h1{
+    text-align: justify;
+    font-family: lato;
+    font-size: 56px;
+    color: #FF6635;
+    font-weight: bolder;
+}
+main .write-up1 .under{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: verdana;
+    padding-bottom: 10px;
+}
+main .write-up1 .ready{
+    margin-top: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+main .write-up1 .below{
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 200;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+/* this is the second wahala */
+ /* this is the main media */
+
+
+.aside1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+    margin-top: 90px;
+    padding: 3rem 3rem 10rem 3rem;
+
+}
+.aside1 h1{
+    font-size: xxx-large;
+    color: #e45323;
+    text-align: center;
+}
+
+.cooking{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.prof{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+hr{
+    margin: 20px 0 20px 0;
+    width: 20%;
+}
+.professional p{
+    font-size: 20px;
+}
+.professional h1{
+    font-size: 25px;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    color: #212121;
+}
+.aside2{
+    padding: 40px;
+    background-image: url(../image/hero-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+.aside2 h1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 8px;
+    font-size: 70px;
+}
+.aside2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgba(228, 226, 226, 0.452);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.aside2 hr{
+    color: #212121;
+    background-color: #212121;
+    align-self: center;
+    width: 25%;
+    opacity: .3;
+}
+.aside2 img{
+    width: 30%;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.ontop{
+    background-color: #2121217e;
+    position: absolute;
+    top: 410px;
+    left: 26.5px;
+    width: 30%;
+    height: fit-content;
+}
+.ontop .pan{
+    text-align: center;
+    padding: 0;
+}
+.ontop p{
+    padding: 12px;
+    text-align: justify;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ontop .low {
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+h1{
+    text-align: center;
+    color: #e45323;
+}
+.clients{
+    font-size: 50px;
+}
+.aside3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.aside3 img{
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+}
+
+.testi1, .testi2, .testi3{
+    flex-wrap: wrap;
+    flex-basis: 28%;
+    width: 24%;
+    border: 2px solid #e9e4e4;
+    border-radius: 8px;
+    box-shadow:1px 1px 6px 1px #c4c4c4;
+}
+.testi1, .testi2, .testi3{
+    position: relative;
+}
+.foodEdit img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.foodEdit{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.testi1 img:nth-child(2){
+    position: absolute;
+    width: 80px;
+    top: 300px;
+    left: 58px;
+    filter: invert(.6);
+    filter: blur(1px);
+    opacity: .1;
+}
+.testi2 img:nth-child(2){
+    position: absolute;
+    width: 80px;
+    top: 300px;
+    left: 58px;
+    filter: invert(.6);
+    filter: blur(1px);
+    opacity: .1;
+}.testi3 img:nth-child(2){
+    position: absolute;
+    width: 80px;
+    top: 300px;
+    left: 58px;
+    filter: invert(.6);
+    filter: blur(1px);
+    opacity: .1;
+}
+.testi1 p{
+    padding: 49.5px 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.testi2 p{
+    padding: 71px 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.testi3 p{
+    padding: 59.9px 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #21212118;
+    padding: 18px;
+}
+.footer h4{
+    color: #212121b2;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    margin-top: 5rem;
+    background-color: #212121;
+    text-align: center;
+    color: #e6e4e4;
+    font-family: tahoma;
+    line-height: 52px;
+    padding: 5rem 2.5em;
+}
+footer h2{
+    font-size: 30px;
+}
+footer p{
+    font-size: 18px;
+}
+.target{
+    position: fixed;
+    color: #e45323;
+    background-color: #212121;
+    height: 500px;
+    width: 500px;
+    padding: 12px;
+}
+@media screen and (max-width: 1440px){
+
+    header h1{
+        font-size: 70px;
+    }
+    header h2{
+        font-size: 60px;
+    }
+    .pict img{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    main img{
+        margin-top: -20rem;
+        width: 500px;
+        margin-left: 16rem;
+    }
+    main .write-up1{
+        margin-left: 3%;
+        margin-right: 10%;
+    } 
+    main .write-up1 h1{
+        font-size: 48px;
+        text-align: justify;
+        margin: 10px;
+    }
+    .prof{
+        gap: 50px;
+    }
+        .images{
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+        }
+        .ontop{
+            background-color: #2121217e;
+            position: absolute;
+            top: 338.5px;
+            left: 20px;
+            width: 30%;
+            padding: 2px;
+        }
+        .ontop p, h1{
+            font-size: 18px;
+        }
+        .ontop h1{
+            padding: 18px 0 0 0;
+            margin: 0px;
+        
+        }
+        .testi1 .footer{
+            margin-top: 41px;
+        }
+        
+        .testi2 .footer{
+            margin-top: 40px;
+        }
+        .testi3 .footer{
+            margin-top: 20px;
+        }
+
+       
+ }
+@media screen and (max-width: 1024px){
+
+    header h1{
+        font-size: 70px;
+    }
+    header h2{
+        font-size: 60px;
+    }
+    .pict img{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    main img{
+        margin-top: -25rem;
+        width: 400px;
+        margin-left: 8rem;
+    }
+    main .write-up1{
+        margin-right: 15%;
+    } 
+    main .write-up1 h1{
+        font-size: 48px;
+        text-align: justify;
+        margin: 10px;
+    }
+    .prof{
+        gap: 50px;
+    }
+        .images{
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+        }
+        .ontop{
+            background-color: #2121217e;
+            position: absolute;
+            top: 171.5px;
+            left: 14px;
+            width: 30%;
+            padding: 2px;
+        }
+        .ontop p, h1{
+            font-size: 18px;
+        }
+        .ontop h1{
+            padding: 0px;
+            margin: 0px;
+        }
+        .testi2 .footer{
+            margin-top: 40.5px;
+        }
+       
+ }
+ @media screen and (max-width: 768px){
+    header img{
+        margin-top: 40px;
+    }
+    nav li{
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 50px;
+    }
+    header h2{
+        font-size: 40px;
+    }
+    header{
+        height: 100vh; 
+    }
+    .pict img{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    main img{
+        align-self: center;
+        margin-top: -1em;
+        margin-left: 0;
+        width: 400px;
+    }
+    main .write-up1{
+        margin: 0;
+    }
+    main .write-up1 h1{
+        font-size:38px;
+        text-align: center;
+    }
+    main {
+        text-align: center;
+    }
+    main .write-up1 .below{
+        font-size: 15px;
+    }
+    main .write-up1 .under{
+        margin-left: 10px;
+    }
+
+    main .ready{
+        font-size: 20px;
+    }
+    main p{
+        font-size: 13px;
+    }
+    .prof{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 50px;
+    }
+        .images{
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .images img{
+            width: 80%;
+            border-radius: 18px;
+        }
+        .ontop{
+            background-color: #2121217e;
+            position: absolute;
+            top: 503px;
+            left: 69px;
+            width: 80%;
+            padding: 22px 0;
+            border-radius: 20px;
+        }
+
+        .ontop p, h1{
+            font-size: 14px;
+        }
+        .ontop h1{
+            padding: 0px;
+            margin: 0px;
+        }
+        .clients{
+            font-size: 45px;
+        }
+        .aside3{
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .testi1, .testi2, .testi3{
+            width: 80%;
+        }
+        .testi2 .footer{
+            margin-top: 40.5px;
+        }
+        
+ }
+ @media screen and (max-width: 425px){
+    header img{
+        margin-top: 40px;
+    }
+    nav li{
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 45px;
+    }
+    header h2{
+        font-size: 35px;
+    }
+    header{
+        height: 100vh; 
+    }
+    .pict img{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    main img{
+        align-self: center;
+        margin-left: 0;
+        margin-top: -1em;
+        width: 300px;
+    }
+    main .write-up1{
+        margin: 0;
+    }
+    main .write-up1 h1{
+        font-size:38px;
+        text-align: center;
+    }
+    main {
+        text-align: center;
+    }
+    main .write-up1 .below{
+        font-size: 15px;
+    }
+    main .write-up1 .under{
+        margin-left: 10px;
+    }
+
+    main .ready{
+        font-size: 20px;
+    }
+    main p{
+        font-size: 13px;
+    }
+    .prof{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 50px;
+    }
+        .images{
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .images img{
+            width: 80%;
+            border-radius: 18px;
+        }
+        .ontop{
+            background-color: #2121217e;
+            position: absolute;
+            top: 166.6px;
+            left: 35px;
+            width: 80%;
+            padding: 22px 0;
+            border-radius: 20px;
+        }
+
+        .ontop p, h1{
+            font-size: 14px;
+        }
+        .ontop h1{
+            padding: 0px;
+            margin: 0px;
+        }
+        .clients{
+            font-size: 45px;
+        }
+        .aside3{
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            /* width: 80rem; */
+        }
+        .testi1, .testi2, .testi3{
+            width: 80%;
+        }
+        .testi2 .footer{
+            margin-top: 40.5px;
+        }
+        
+ }
+ @media screen and (max-width: 375px){
+    header img{
+        margin-top: 40px;
+    }
+    nav li{
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+    header{
+        height: 100vh; 
+    }
+    
+    .pict img{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    main img{
+        align-self: center;
+        margin-top: -1em;
+        width: 300px;
+        margin-left: 0;
+    }
+    main .write-up1{
+        margin: 0;
+    }
+    main .write-up1 h1{
+        font-size:38px;
+        text-align: center;
+    }
+    main {
+        text-align: center;
+    }
+    main .write-up1 .below{
+        font-size: 15px;
+    }
+    main .write-up1 .under{
+        margin-left: 10px;
+    }
+
+    main .ready{
+        font-size: 20px;
+    }
+    main p{
+        font-size: 13px;
+    }
+    .prof{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 50px;
+    }
+        .images{
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .images img{
+            width: 80%;
+            border-radius: 18px;
+        }
+        .ontop{
+            background-color: #2121217e;
+            position: absolute;
+            top: 131.6px;
+            left: 30px;
+            width: 80%;
+            padding: 22px 0;
+            border-radius: 20px;
+            padding: 10px 0 5px 0;
+        }
+
+        .ontop p, h1{
+            font-size: 14px;
+        }
+        .ontop h1{
+            padding: 0px;
+            margin: 0px;
+        }
+        .clients{
+            font-size: 35px;
+        }
+        .aside3{
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .testi1, .testi2, .testi3{
+            width: 80%;
+        }
+        .testi2 .footer{
+            margin-top: 40.5px;
+        }
+        
+ }
+ @media screen and (max-width: 320px){
+    header img{
+        margin-top: -6rem;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav li{
+        font-size: 20px;
+    }
+    header h1{
+        margin-top: 18px;
+        font-size: 34px;
+    }
+    header h2{
+        font-size: 20px;
+    }
+    header{
+        height: 100vh; 
+    }
+    header button:nth-child(1){
+        padding: 1rem 1rem 1rem 1.2rem;
+        margin-top: 30px;
+        margin-left: 21%;
+        width: 60%;
+    }
+    header button:nth-child(2){
+        padding: 1rem 1rem 1rem 1.5rem;
+        margin: auto auto;
+        margin-top: 30px;
+        margin-left: 25%;
+        width: 50%;
+
+    }
+    .pict img{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    main img{
+        align-self: center;
+        margin-top: -1em;
+        margin-left: 0;
+        width: 250px;
+    }
+    main .write-up1{
+        margin: 0;
+        width: 18rem;
+    }
+    main .write-up1 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    main {
+        text-align: center;
+    }
+    main .write-up1 .below{
+        font-size: 14px;
+    }
+    main .write-up1 .under{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    main .ready{
+        font-size: 14px;
+    }
+    main p{
+        font-size: 10px;
+    }
+
+
+    .prof{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .aside2 h1{
+        font-size: 40px;
+    }
+    .aside2 .here{
+        font-size: 18px;
+    }
+        .images{
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .images img{
+            width: 80%;
+            border-radius: 18px;
+        }
+        .ontop{
+            background-color: #2121217e;
+            position: absolute;
+            top: 127px;
+            left: 24px;
+            width: 80%;
+            border-radius: 20px;
+            padding: 6px 0 1px 0;
+        }
+
+        .ontop p, h1{
+            font-size: 10px;
+        }
+        .ontop h1{
+            padding: 0px;
+            margin: 0px;
+        }
+        .clients{
+            font-size: 34px;
+        }
+        .aside3{
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .testi1, .testi2, .testi3{
+            width: 80%;
+        }
+        .testi2 .footer{
+            margin-top: 40.5px;
+        }
+        
+ }
